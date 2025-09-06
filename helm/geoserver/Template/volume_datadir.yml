@@ -8,6 +8,7 @@ spec:
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
+  storageClassName: standard
   hostPath:
     path: "/home/swi/data/gdt"
     type: DirectoryOrCreate
